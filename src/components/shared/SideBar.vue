@@ -117,11 +117,11 @@
           </ul>
         </li>
         <li class="nav-item w-100">
-          <a class="nav-link" href="widgets.html">
+          <router-link :to="{name:'Customer'}">
             <i class="fe fe-layers fe-16"></i>
-            <span class="ml-3 item-text">Customer</span>
+             <span class="ml-3 item-text">Customer</span>
             <span class="badge badge-pill badge-primary">New</span>
-          </a>
+         </router-link>
         </li>
         <li class="nav-item dropdown">
           <a
